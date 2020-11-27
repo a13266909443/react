@@ -5,9 +5,9 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   // 严格模式
-  <React.StrictMode>  
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>  
+    <App />,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 

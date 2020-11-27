@@ -11,7 +11,9 @@ class Home extends Component {
   render(){
     return(
       <div className="home">
-        {this.state.title}
+        <div className="banner" >
+          <div className="banner-content"></div>
+        </div>
       </div>
     )
   }

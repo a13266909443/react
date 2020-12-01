@@ -17,11 +17,11 @@ class Header extends Component {
   }
   // 挂载前
   UNSAFE_componentWillMount(){
-    console.log(this.navList)
+    // console.log(this.navList)
   }
   // 挂载后
   componentDidMount(){
-    console.log(222)
+    // console.log(222)
   }
   render(){
     return (

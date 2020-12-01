@@ -1,0 +1,15 @@
+.banner{
+  background-color: rgba(46, 25, 127,.3);
+  .banner-content{
+    width: 1190px;
+    margin: 0 auto;
+    height: 432px;
+    .banner-swiper{
+      height: 100%;
+    }
+    img{
+      width: 100%;
+      height: 432px;
+    }
+  }
+}

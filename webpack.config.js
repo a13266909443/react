@@ -1,4 +1,6 @@
 var path = require('path');
+// const cleanWebpackPlugin = require('clean-webpack-plugin')
+// const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 module.exports = {
@@ -50,6 +52,7 @@ module.exports = {
   },
   plugins:[
     new webpack.HotModuleReplacementPlugin(),  // 热加载
+    // new ExtractTextPlugin("css/style.css"),
     new HtmlWebpackPlugin({ // HTML入口文件加载
       template: path.resolve(__dirname, './public/index.html'),
       filename: 'index.html',

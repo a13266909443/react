@@ -4,6 +4,9 @@ import Swiper from "swiper/dist/js/swiper"
 import "swiper/dist/css/swiper.css"
 
 export default class Banner extends Component {
+  constructor(props){
+    super(props)
+  }
   componentDidMount(){
     let mySwiper = new Swiper ('.banner-swiper',{
       autoplay:{delay: 3000},
@@ -17,8 +20,6 @@ export default class Banner extends Component {
     })
   }
   render(){
-    console.log(history)
-    this.state = 1000
     return(
       <div className="banner" ref="banner">
         <div className="banner-content">
